@@ -18,5 +18,8 @@
     <ClCompile Include="yunsu-01-source.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="leeyunsu-01-test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
