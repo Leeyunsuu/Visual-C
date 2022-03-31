@@ -1,0 +1,1735 @@
+2022-03-31 10:02:06,829 [INFO] Activator:176 - 
+
+
+2022-03-31 10:02:06,832 [INFO] Activator:177 - !SESSION log4j initialized
+2022-03-31 10:02:24,131 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-03-31 10:02:24,144 [INFO] DbMcusXml:69 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-03-31 10:02:24,147 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-03-31 10:02:24,148 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,148 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,150 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-03-31 10:02:24,157 [INFO] DbMcusAds:72 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,158 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,159 [INFO] DbMcusJson:59 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,160 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,161 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,166 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-31 10:02:24,238 [INFO] RulesReader:52 - Compatibility file has been processed (205 Rules)
+2022-03-31 10:02:24,296 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2022-03-31 10:02:24,297 [INFO] DbMcusXml:69 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-03-31 10:02:24,297 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-03-31 10:02:24,297 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,297 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,298 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-03-31 10:02:24,298 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,298 [INFO] DbMcusAds:72 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,298 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,298 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,298 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,298 [INFO] DbMcusJson:59 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,298 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,299 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,299 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,299 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,299 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,299 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,299 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-31 10:02:24,343 [INFO] MainPanel:180 - HeapMemory: 348127232
+2022-03-31 10:02:24,399 [INFO] DbMcusXml:69 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/
+2022-03-31 10:02:24,400 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/boardmanager/
+2022-03-31 10:02:24,400 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,400 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/
+2022-03-31 10:02:24,400 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/mcu/
+2022-03-31 10:02:24,400 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,401 [INFO] DbMcusAds:72 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,401 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,401 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,401 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,401 [INFO] DbMcusJson:59 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,401 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,401 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,401 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,401 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-31 10:02:24,402 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,402 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\user\.stmcufinder\plugins\mcufinder/ => C:\Users\user\.stmcufinder\plugins\mcufinder
+2022-03-31 10:02:24,402 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\user\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-31 10:02:24,414 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-03-31 10:02:24,415 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2022-03-31 10:02:24,416 [INFO] PluginManage:292 - Check plugin analytics
+2022-03-31 10:02:24,439 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-03-31 10:02:24,439 [INFO] PluginManage:292 - Check plugin clock
+2022-03-31 10:02:24,459 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-03-31 10:02:24,459 [INFO] PluginManage:292 - Check plugin ddr
+2022-03-31 10:02:24,461 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-03-31 10:02:24,461 [INFO] PluginManage:292 - Check plugin filemanager
+2022-03-31 10:02:24,542 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-03-31 10:02:24,543 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-03-31 10:02:24,548 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-03-31 10:02:24,548 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-03-31 10:02:24,562 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-03-31 10:02:24,562 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-03-31 10:02:24,586 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-03-31 10:02:24,586 [INFO] PluginManage:292 - Check plugin power
+2022-03-31 10:02:24,608 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-03-31 10:02:24,609 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-03-31 10:02:24,617 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-03-31 10:02:24,618 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-03-31 10:02:24,684 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 30 ms. number of Sw pack : 17
+2022-03-31 10:02:24,691 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-03-31 10:02:24,691 [INFO] PluginManage:292 - Check plugin tools
+2022-03-31 10:02:24,696 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-03-31 10:02:24,697 [INFO] PluginManage:292 - Check plugin updater
+2022-03-31 10:02:24,703 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-03-31 10:02:24,704 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-03-31 10:02:24,848 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-03-31 10:02:24,915 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,915 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-03-31 10:02:24,921 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,921 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-03-31 10:02:24,928 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,929 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-03-31 10:02:24,932 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,932 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-03-31 10:02:24,938 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,938 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-03-31 10:02:24,943 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,943 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-03-31 10:02:24,954 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,954 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-03-31 10:02:24,957 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,958 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-03-31 10:02:24,966 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,967 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-03-31 10:02:24,980 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,981 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-03-31 10:02:24,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,985 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-03-31 10:02:24,991 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,992 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-03-31 10:02:24,999 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:24,999 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2022-03-31 10:02:25,008 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,008 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-03-31 10:02:25,018 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,018 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-03-31 10:02:25,026 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,027 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-03-31 10:02:25,032 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,032 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-03-31 10:02:25,040 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,040 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-03-31 10:02:25,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,048 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-03-31 10:02:25,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,057 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-03-31 10:02:25,063 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,063 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-03-31 10:02:25,077 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,077 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-03-31 10:02:25,086 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,086 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-03-31 10:02:25,092 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,092 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-03-31 10:02:25,099 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,100 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-03-31 10:02:25,110 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,112 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-03-31 10:02:25,116 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,116 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-03-31 10:02:25,126 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,127 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-03-31 10:02:25,135 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,135 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-03-31 10:02:25,141 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,142 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-03-31 10:02:25,147 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,147 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-03-31 10:02:25,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,151 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-03-31 10:02:25,160 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,160 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-03-31 10:02:25,164 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,164 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-03-31 10:02:25,169 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,169 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-03-31 10:02:25,173 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,173 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-03-31 10:02:25,177 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,177 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-03-31 10:02:25,185 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:02:25,185 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-03-31 10:02:25,379 [INFO] BoardConnectionPanel:226 - [DDR PANEL] osNameString: Windows
+2022-03-31 10:02:25,493 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-03-31 10:02:25,494 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-03-31 10:02:25,655 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-03-31 10:02:25,859 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-03-31 10:02:25,863 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-03-31 10:02:25,864 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-03-31 10:02:25,869 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-03-31 10:02:25,869 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2022-03-31 10:02:25,873 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2022-03-31 10:02:25,978 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2022-03-31 10:02:25,992 [INFO] Updater:886 - Updater Version found : 5.5.0
+2022-03-31 10:02:26,008 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511
+2022-03-31 10:02:26,138 [INFO] MainUpdater:2230 - connection check result : 10
+2022-03-31 10:02:26,139 [INFO] MainUpdater:2874 - Updater definition file requires update
+2022-03-31 10:02:26,139 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-03-31 10:02:26,139 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2022-03-31 10:02:26,199 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-03-31 10:02:26,351 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-03-31 10:02:26,351 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-03-31 10:02:26,543 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-03-31 10:02:26,570 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-03-31 10:02:26,741 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2022-03-31 10:02:26,821 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALS.pdsc
+2022-03-31 10:02:26,863 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2022-03-31 10:02:27,423 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-03-31 10:02:27,449 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2022-03-31 10:02:27,520 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2022-03-31 10:02:27,562 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-EEPRMA1.pdsc
+2022-03-31 10:02:27,678 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2022-03-31 10:02:27,690 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:27,931 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2022-03-31 10:02:27,997 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC7.pdsc
+2022-03-31 10:02:28,032 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SFXS2LP1.pdsc
+2022-03-31 10:02:28,075 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2022-03-31 10:02:28,147 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOF1.pdsc
+2022-03-31 10:02:28,652 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-03-31 10:02:28,689 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2022-03-31 10:02:28,758 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2022-03-31 10:02:28,825 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2022-03-31 10:02:29,117 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2022-03-31 10:02:29,407 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2022-03-31 10:02:29,681 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2022-03-31 10:02:29,893 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2022-03-31 10:02:30,250 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2022-03-31 10:02:30,363 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2022-03-31 10:02:30,690 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:30,762 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2022-03-31 10:02:32,774 [INFO] ServerAccessManage:348 - Download File SEGGER.I-CUBE-embOS.pdsc
+2022-03-31 10:02:33,691 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:36,070 [INFO] ServerAccessManage:348 - Download File portGmbH.I-Cube-SoM-uGOAL.pdsc
+2022-03-31 10:02:36,169 [INFO] MainUpdater:2230 - connection check result : 10
+2022-03-31 10:02:36,169 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2022-03-31 10:02:36,272 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-03-31 10:02:36,286 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2022-03-31 10:02:36,287 [INFO] DbMcusXml:107 - Load MCU database from C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/families.xml
+2022-03-31 10:02:36,704 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:37,126 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:38,134 [INFO] DbMcus:192 - Found 1628 MCUs (1588 are supported by CubeMX, 1588 are visible in CubeMX)
+2022-03-31 10:02:38,135 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-31 10:02:38,135 [INFO] ApiDb:163 - User favorites MCUs=[]
+2022-03-31 10:02:38,136 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2022-03-31 10:02:38,755 [INFO] DbMcusAds:130 - JSON generation date=Thu Feb 21 01:46:15 KST 2019 (1550681175)
+2022-03-31 10:02:38,756 [WARN] McuDetailPanel:184 - Failed to get advertising image, set to default
+2022-03-31 10:02:39,088 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-03-31 10:02:39,091 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-03-31 10:02:39,153 [INFO] DbMcusDocs:126 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:39,316 [INFO] DbMcusDocs:61 - Found 617 MCUs documents
+2022-03-31 10:02:39,316 [INFO] ApiDb:186 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-31 10:02:39,316 [INFO] ApiDb:191 - User favorites MCUs=[]
+2022-03-31 10:02:39,316 [INFO] DbMcusXml:107 - Load MCU database from C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/families.xml
+2022-03-31 10:02:39,595 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:39,680 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-03-31 10:02:39,705 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:39,989 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-03-31 10:02:39,990 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-03-31 10:02:40,138 [INFO] DbMcus:192 - Found 1628 MCUs (1588 are supported by CubeMX, 1588 are visible in CubeMX)
+2022-03-31 10:02:40,138 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-31 10:02:40,138 [INFO] ApiDb:163 - User favorites MCUs=[]
+2022-03-31 10:02:40,139 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2022-03-31 10:02:40,195 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2022-03-31 10:02:40,478 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:40,503 [INFO] DbBoardsPdsc:92 - Found 21 items
+2022-03-31 10:02:40,519 [INFO] DbBoardsPdsc:92 - Found 9 items
+2022-03-31 10:02:40,544 [INFO] DbBoardsPdsc:92 - Found 27 items
+2022-03-31 10:02:40,548 [INFO] DbBoardsPdsc:92 - Found 1 items
+2022-03-31 10:02:40,580 [INFO] DbBoardsPdsc:92 - Found 40 items
+2022-03-31 10:02:40,616 [INFO] DbBoardsPdsc:92 - Found 39 items
+2022-03-31 10:02:40,620 [INFO] DbBoardsPdsc:92 - Found 2 items
+2022-03-31 10:02:40,626 [INFO] DbBoardsPdsc:92 - Found 4 items
+2022-03-31 10:02:40,630 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-03-31 10:02:40,630 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2022-03-31 10:02:40,631 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-03-31 10:02:40,632 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-03-31 10:02:40,632 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2022-03-31 10:02:40,632 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-03-31 10:02:40,632 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V1: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:40,633 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V2: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:40,644 [INFO] DbBoardsJson:79 - JSON generation date=Fri Feb 05 01:53:45 KST 2021 (1612457625)
+2022-03-31 10:02:40,649 [INFO] DbBoards:120 - Found 150 boards (140 are supported by CubeMX)
+2022-03-31 10:02:40,653 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:40,664 [INFO] DbBoardsDocs:57 - Found 193 boards documents
+2022-03-31 10:02:40,664 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2022-03-31 10:02:40,665 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-03-31 10:02:40,665 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-03-31 10:02:40,665 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2022-03-31 10:02:40,666 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2022-03-31 10:02:40,666 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2022-03-31 10:02:40,667 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2022-03-31 10:02:40,667 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2022-03-31 10:02:40,668 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-03-31 10:02:40,669 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2022-03-31 10:02:40,669 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2022-03-31 10:02:40,669 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2022-03-31 10:02:40,669 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2022-03-31 10:02:40,757 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-03-31 10:02:40,899 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2022-03-31 10:02:40,982 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-03-31 10:02:40,982 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-03-31 10:02:41,316 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-03-31 10:02:41,460 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2022-03-31 10:02:41,460 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2022-03-31 10:02:41,464 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-03-31 10:02:41,464 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-03-31 10:02:41,465 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-31 10:02:41,465 [INFO] ApiDb:163 - User favorites Boards=[]
+2022-03-31 10:02:41,465 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2022-03-31 10:02:41,469 [INFO] DbBoardsDocs:57 - Found 386 boards documents
+2022-03-31 10:02:41,469 [INFO] ApiDb:186 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-31 10:02:41,469 [INFO] ApiDb:191 - User favorites Boards=[]
+2022-03-31 10:02:41,471 [INFO] DbBoardsPdsc:92 - Found 21 items
+2022-03-31 10:02:41,472 [INFO] DbBoardsPdsc:92 - Found 9 items
+2022-03-31 10:02:41,473 [INFO] DbBoardsPdsc:92 - Found 27 items
+2022-03-31 10:02:41,475 [INFO] DbBoardsPdsc:92 - Found 1 items
+2022-03-31 10:02:41,477 [INFO] DbBoardsPdsc:92 - Found 40 items
+2022-03-31 10:02:41,479 [INFO] DbBoardsPdsc:92 - Found 39 items
+2022-03-31 10:02:41,480 [INFO] DbBoardsPdsc:92 - Found 2 items
+2022-03-31 10:02:41,481 [INFO] DbBoardsPdsc:92 - Found 4 items
+2022-03-31 10:02:41,482 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-03-31 10:02:41,482 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2022-03-31 10:02:41,484 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-03-31 10:02:41,484 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-03-31 10:02:41,484 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2022-03-31 10:02:41,484 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-03-31 10:02:41,485 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V1: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:41,485 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V2: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:41,492 [INFO] DbBoardsJson:79 - JSON generation date=Fri Feb 05 01:53:45 KST 2021 (1612457625)
+2022-03-31 10:02:41,497 [INFO] DbBoards:120 - Found 150 boards (140 are supported by CubeMX)
+2022-03-31 10:02:41,498 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2022-03-31 10:02:41,499 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-03-31 10:02:41,499 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-03-31 10:02:41,499 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2022-03-31 10:02:41,500 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2022-03-31 10:02:41,500 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2022-03-31 10:02:41,500 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2022-03-31 10:02:41,501 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2022-03-31 10:02:41,502 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2022-03-31 10:02:41,502 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2022-03-31 10:02:41,502 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2022-03-31 10:02:41,502 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2022-03-31 10:02:41,503 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2022-03-31 10:02:41,639 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2022-03-31 10:02:41,793 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-03-31 10:02:41,851 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-03-31 10:02:41,922 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2022-03-31 10:02:41,922 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2022-03-31 10:02:41,925 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-03-31 10:02:41,925 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-03-31 10:02:41,925 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-31 10:02:41,925 [INFO] ApiDb:163 - User favorites Boards=[]
+2022-03-31 10:02:41,925 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2022-03-31 10:02:42,026 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2022-03-31 10:02:42,172 [WARN] BoardDetailPanel:182 - Failed to get advertising image, set to default
+2022-03-31 10:02:42,213 [INFO] DbMcusDocs:126 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:42,289 [INFO] DbMcusDocs:61 - Found 617 MCUs documents
+2022-03-31 10:02:42,289 [INFO] ApiDb:186 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-31 10:02:42,289 [INFO] ApiDb:191 - User favorites MCUs=[]
+2022-03-31 10:02:42,290 [INFO] DbMcusXml:107 - Load MCU database from C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/mcu/families.xml
+2022-03-31 10:02:42,593 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:42,706 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-03-31 10:02:43,051 [INFO] DbMcus:192 - Found 1628 MCUs (1588 are supported by CubeMX, 1588 are visible in CubeMX)
+2022-03-31 10:02:43,052 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-31 10:02:43,052 [INFO] ApiDb:163 - User favorites MCUs=[]
+2022-03-31 10:02:43,052 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2022-03-31 10:02:43,056 [INFO] ServerAccessManage:348 - Download File emotas.I-CUBE-CANOPEN.pdsc
+2022-03-31 10:02:43,100 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2022-03-31 10:02:43,287 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 22:35:07 KST 2021 (1612791307)
+2022-03-31 10:02:43,292 [INFO] DbBoardsDocs:57 - Found 193 boards documents
+2022-03-31 10:02:43,293 [INFO] ApiDb:186 - Save user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-31 10:02:43,293 [INFO] ApiDb:191 - User favorites Boards=[]
+2022-03-31 10:02:43,296 [INFO] DbBoardsPdsc:92 - Found 21 items
+2022-03-31 10:02:43,298 [INFO] DbBoardsPdsc:92 - Found 9 items
+2022-03-31 10:02:43,300 [INFO] DbBoardsPdsc:92 - Found 27 items
+2022-03-31 10:02:43,302 [INFO] DbBoardsPdsc:92 - Found 1 items
+2022-03-31 10:02:43,307 [INFO] DbBoardsPdsc:92 - Found 40 items
+2022-03-31 10:02:43,312 [INFO] DbBoardsPdsc:92 - Found 39 items
+2022-03-31 10:02:43,314 [INFO] DbBoardsPdsc:92 - Found 2 items
+2022-03-31 10:02:43,316 [INFO] DbBoardsPdsc:92 - Found 4 items
+2022-03-31 10:02:43,318 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-03-31 10:02:43,319 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-DK: unknown feature type=WIFI, name=, username=WIFI 802.11 b/g/n, n=1
+2022-03-31 10:02:43,321 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-03-31 10:02:43,321 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-03-31 10:02:43,321 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=WIFI, name=, username=WIFI 802.11 a/b/g/n, n=1
+2022-03-31 10:02:43,321 [WARN] DbBoardsPdsc:256 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-03-31 10:02:43,322 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V1: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:43,322 [WARN] DbBoardsPdsc:256 - Board STEVAL-IDP005V2: unknown feature type=PWRSock, name=Power Socket, username=IO-Link 4-position M12 A-coded connector, n=1
+2022-03-31 10:02:43,332 [INFO] DbBoardsJson:79 - JSON generation date=Fri Feb 05 01:53:45 KST 2021 (1612457625)
+2022-03-31 10:02:43,338 [INFO] DbBoards:120 - Found 150 boards (140 are supported by CubeMX)
+2022-03-31 10:02:43,339 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2022-03-31 10:02:43,339 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-03-31 10:02:43,339 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2022-03-31 10:02:43,340 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-BFA001V1B has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-BFA001V2B has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-STWINKT1 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-IDP005V1 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-IDP005V2 has no document id list !
+2022-03-31 10:02:43,341 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2022-03-31 10:02:43,495 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2022-03-31 10:02:43,807 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-03-31 10:02:43,888 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2022-03-31 10:02:43,888 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2022-03-31 10:02:43,891 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-03-31 10:02:43,891 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-03-31 10:02:43,891 [INFO] ApiDb:158 - Load user favorites file C:\Users\user/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-31 10:02:43,891 [INFO] ApiDb:163 - User favorites Boards=[]
+2022-03-31 10:02:43,891 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2022-03-31 10:02:43,896 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2022-03-31 10:02:44,019 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2022-03-31 10:02:44,066 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\user\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-03-31 10:02:44,651 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-03-31 10:02:44,692 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-03-31 10:02:44,698 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:44,762 [WARN] PopulateThirdPartyThread:82 - Error when creating pack: C:/Users/user/.stm32cubemx/thirdparties/pdsc/STMicroelectronics.X-CUBE-ALS.pdsc
+2022-03-31 10:02:44,795 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 16 ms. number of Sw pack : 18
+2022-03-31 10:02:44,804 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:44,954 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 15 ms. number of Sw pack : 19
+2022-03-31 10:02:44,961 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:44,998 [WARN] PopulateThirdPartyThread:82 - Error when creating pack: C:/Users/user/.stm32cubemx/thirdparties/pdsc/STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2022-03-31 10:02:45,035 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 16 ms. number of Sw pack : 20
+2022-03-31 10:02:45,056 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,160 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 17 ms. number of Sw pack : 21
+2022-03-31 10:02:45,180 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,182 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,183 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,184 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,185 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,186 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,186 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,190 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,190 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,191 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,192 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,193 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,194 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,195 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,196 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,197 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,198 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,199 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,200 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,201 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,202 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,203 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,204 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,205 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,206 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,207 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,208 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,209 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,210 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,211 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,212 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,213 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,214 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,215 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,216 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,217 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,218 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,219 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,220 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,221 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,222 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,223 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,224 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,225 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,226 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,227 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,228 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,229 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,230 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,231 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,232 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,233 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,234 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,235 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,236 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,237 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,238 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,239 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,240 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,241 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,242 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,243 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,244 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,245 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,246 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:673 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,247 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,248 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,457 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,505 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 15 ms. number of Sw pack : 22
+2022-03-31 10:02:45,512 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,562 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 14 ms. number of Sw pack : 23
+2022-03-31 10:02:45,566 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,611 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 9 ms. number of Sw pack : 24
+2022-03-31 10:02:45,612 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,613 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,614 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,615 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:596 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,616 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,617 [INFO] MxPackages:636 - 
+2022-03-31 10:02:45,621 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,651 [WARN] PopulateThirdPartyThread:82 - Error when creating pack: C:/Users/user/.stm32cubemx/thirdparties/pdsc/STMicroelectronics.X-CUBE-SUBG2.pdsc
+2022-03-31 10:02:45,656 [WARN] PopulateThirdPartyThread:82 - Error when creating pack: C:/Users/user/.stm32cubemx/thirdparties/pdsc/STMicroelectronics.X-CUBE-TOF1.pdsc
+2022-03-31 10:02:45,722 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 18 ms. number of Sw pack : 25
+2022-03-31 10:02:45,737 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 14 ms. number of Sw pack : 25
+2022-03-31 10:02:45,806 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:45,866 [ERROR] PopulateThirdPartyThread:50 - Unexpected exception PopulateThirdPartyThread Threadnull
+2022-03-31 10:02:45,867 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: null
+2022-03-31 10:02:45,924 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 47 ms. number of Sw pack : 26
+2022-03-31 10:02:45,927 [INFO] Engine:366 - softwarePackList size : 26
+2022-03-31 10:02:45,936 [INFO] Engine:382 - compute dependency for SwPack FreeRTOS have been done, no update is requested
+2022-03-31 10:02:45,941 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2022-03-31 10:02:45,962 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2022-03-31 10:02:45,980 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE2 have been done, and update is requested
+2022-03-31 10:02:45,998 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-DISPLAY have been done, and update is requested
+2022-03-31 10:02:46,021 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-EEPRMA1 have been done, and update is requested
+2022-03-31 10:02:46,039 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2022-03-31 10:02:46,669 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2022-03-31 10:02:46,692 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2022-03-31 10:02:46,716 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-SFXS2LP1 have been done, and update is requested
+2022-03-31 10:02:46,826 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-SUBG2 have been done, and update is requested
+2022-03-31 10:02:46,842 [INFO] Engine:382 - compute dependency for SwPack X-CUBE-TOUCHGFX have been done, no update is requested
+2022-03-31 10:02:46,846 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-ALGOBUILD have been done, and update is requested
+2022-03-31 10:02:46,871 [INFO] Engine:378 - compute dependency for SwPack I-CUBE-wolfSSL have been done, and update is requested
+2022-03-31 10:02:46,901 [INFO] Engine:382 - compute dependency for SwPack I-CUBE-UNISONRTOS have been done, no update is requested
+2022-03-31 10:02:47,440 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2022-03-31 10:02:47,455 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-TOF1 have been done, and update is requested
+2022-03-31 10:02:47,467 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2022-03-31 10:02:47,479 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2022-03-31 10:02:47,491 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-BLE2 have been done, and update is requested
+2022-03-31 10:02:47,501 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-EEPRMA1 have been done, and update is requested
+2022-03-31 10:02:48,021 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2022-03-31 10:02:48,027 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2022-03-31 10:02:48,033 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-NFC7 have been done, and update is requested
+2022-03-31 10:02:48,038 [INFO] Engine:378 - compute dependency for SwPack X-CUBE-SFXS2LP1 have been done, and update is requested
+2022-03-31 10:02:48,042 [INFO] Engine:382 - compute dependency for SwPack X-CUBE-TOUCHGFX have been done, no update is requested
+2022-03-31 10:02:48,042 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-03-31 10:02:48,065 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/user/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 5 ms. number of Sw pack : 26
+2022-03-31 10:02:48,071 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,071 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,071 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,072 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,072 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,072 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,077 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,077 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,077 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,077 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:02:48,137 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,137 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,137 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,137 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:02:48,137 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:02:48,159 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:02:48,178 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:02:48,194 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.19.0
+2022-03-31 10:02:48,211 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:05:50,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.4
+2022-03-31 10:05:50,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.3
+2022-03-31 10:05:50,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.2
+2022-03-31 10:05:50,355 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.1
+2022-03-31 10:05:50,355 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.8.0
+2022-03-31 10:05:52,447 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2022-03-31 10:05:53,362 [INFO] MainUpdater:2230 - connection check result : 10
+2022-03-31 10:05:53,383 [INFO] MicroXplorer:390 - Change Database Path : 
+2022-03-31 10:05:53,383 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.50
+2022-03-31 10:05:53,385 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-03-31 10:05:53,385 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 579360016 Bytes (985661440)
+2022-03-31 10:05:53,386 [INFO] OpenFileManager:274 - Change cursor
+2022-03-31 10:05:54,121 [INFO] Rule:210 - rule SPDIFRX instance for mcu is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule Rename Tracer Mode is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule SPDIFRX instance for signal is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule SPDIFRX instance for project manager is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule SPDIFRX instance for project manager is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC Scan  fix with FW F7 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC Scan  fix with FW F7 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule UART/USART WORD LENGTH 7 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule UART/USART WORD LENGTH 8 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule UART/USART WORD LENGTH 9 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-03-31 10:05:54,122 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename USB_OE Signal is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename Activate_OE Mode is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2022-03-31 10:05:54,123 [INFO] Rule:210 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule TimeTriggeredMode to TTCM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN AutoBusOff to ABOM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN AutoRetransmission to NART is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2022-03-31 10:05:54,124 [INFO] Rule:210 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule USART TxPinLevelInvertParam Mode is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule USART RxPinLevelInvertParam Mode is applicable
+2022-03-31 10:05:54,125 [INFO] Rule:210 - rule USART DataInvertParam Mode is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule USART SwapParam Mode is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule USART OverrunDisableParam Mode is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule USART DMADisableonRxErrorParam Mode is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule USART MSBFirstParam Mode is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule Update MwName for USB_DEVICE is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule TIM1CLockSelection is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule TIM15CLockSelection is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,126 [INFO] Rule:210 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Rename DCMI PIXCK signal is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change Default Value for USART for G4 family is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2022-03-31 10:05:54,127 [INFO] Rule:210 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2022-03-31 10:05:54,128 [INFO] Rule:210 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2022-03-31 10:05:54,132 [INFO] DbConfProperties:222 - Apply Compatibility (21/138 Rules)
+2022-03-31 10:05:54,143 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-03-31 10:05:54,161 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (ADCFreqValue) has invalid value (32000000)
+2022-03-31 10:05:54,162 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-03-31 10:05:54,162 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (MCOFreq_Value) has invalid value (64000000)
+2022-03-31 10:05:54,162 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (64000000)
+2022-03-31 10:05:54,234 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 691769832 Bytes (985661440)
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-31 10:05:54,328 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2022-03-31 10:05:54,329 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2022-03-31 10:05:54,443 [INFO] PinOutPanel:1399 - setPackage(No Configuration,No Configuration)
+2022-03-31 10:05:54,444 [INFO] PinOutPanel:1399 - setPackage(STM32F103RBTx,LQFP64)
+2022-03-31 10:05:54,665 [INFO] UtilMem:74 - Before build in PCC Used Memory: 467715152 Bytes (985661440)
+2022-03-31 10:05:54,854 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/user/.stm32cubemx/plugins/power
+2022-03-31 10:05:54,854 [INFO] UtilMem:74 - After build in PCC Used Memory: 480162392 Bytes (985661440)
+2022-03-31 10:05:54,866 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,866 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,866 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,866 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,866 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,868 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,869 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,869 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,869 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-03-31 10:05:54,891 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2022-03-31 10:05:54,941 [INFO] OpenFileManager:294 - Restore cursor
+2022-03-31 10:05:55,062 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 510430032 Bytes (985661440)
+2022-03-31 10:05:55,451 [INFO] FileExtend:225 - Unzip File : stm32cube_fw_f1_v180.zip
+2022-03-31 10:05:55,453 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-03-31 10:06:01,140 [INFO] ServerAccessManage:348 - Download File stm32cube_fw_f1_v184.zip
+2022-03-31 10:06:20,412 [INFO] FileExtend:225 - Unzip File : stm32cube_fw_f1_v184.zip
+2022-03-31 10:06:20,413 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-03-31 10:06:22,321 [INFO] LoadServerPackagesThread:160 - End of LoadServerPackages Thread
+2022-03-31 10:06:22,349 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-03-31 10:06:22,354 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 613900576 Bytes (1073741824)
+2022-03-31 10:06:22,764 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2022-03-31 10:06:22,765 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: USART
+2022-03-31 10:06:22,765 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2022-03-31 10:06:22,765 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2022-03-31 10:06:22,765 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2022-03-31 10:06:22,766 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2022-03-31 10:06:22,979 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\license.tmp_save
+2022-03-31 10:06:23,172 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\license.tmp
+2022-03-31 10:06:23,243 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\gpio.tmp_save
+2022-03-31 10:06:23,334 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\gpio.tmp
+2022-03-31 10:06:23,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-03-31 10:06:23,408 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2022-03-31 10:06:23,409 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2022-03-31 10:06:23,410 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2022-03-31 10:06:23,412 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2022-03-31 10:06:23,419 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_it.c_save
+2022-03-31 10:06:23,522 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_it.c
+2022-03-31 10:06:23,527 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_it.h_save
+2022-03-31 10:06:23,604 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_it.h
+2022-03-31 10:06:23,614 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-31 10:06:23,715 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_hal_msp.c
+2022-03-31 10:06:23,720 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\system.tmp_save
+2022-03-31 10:06:23,779 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\system.tmp
+2022-03-31 10:06:23,787 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-31 10:06:23,855 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-31 10:06:23,869 [WARN] IPConfigManager:2706 - IP not found : gpio
+2022-03-31 10:06:23,870 [WARN] CodeGenerator:2776 - IP not found : gpio
+2022-03-31 10:06:23,877 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\main.h_save
+2022-03-31 10:06:23,946 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\main.h
+2022-03-31 10:06:23,952 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\main.c_save
+2022-03-31 10:06:24,033 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\main.c
+2022-03-31 10:06:24,911 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 29mS.
+2022-03-31 10:06:24,914 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2022-03-31 10:06:25,161 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2022-03-31 10:06:27,621 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 2707mS.
+2022-03-31 10:06:27,622 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 1mS.
+2022-03-31 10:06:27,623 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2022-03-31 10:08:26,739 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-31 10:08:45,172 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-31 10:08:57,028 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-31 10:08:58,142 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-31 10:09:31,529 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 745288904 Bytes (1073741824)
+2022-03-31 10:09:32,982 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 753677512 Bytes (1073741824)
+2022-03-31 10:09:33,066 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 769646264 Bytes (1073741824)
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: NVIC
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: USART
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: TIM1_8F1
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: SYS
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: GPIO
+2022-03-31 10:09:33,155 [INFO] BlockDiagram:2751 - set Specific Code input for plugin: RCC
+2022-03-31 10:09:33,156 [INFO] CodeGenerator:601 - code generatio: config db path: C:\ST\STM32CubeIDE_1.2.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.5.0.201912201511\\db\
+2022-03-31 10:09:33,247 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\license.tmp_save
+2022-03-31 10:09:33,285 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\license.tmp
+2022-03-31 10:09:33,296 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\gpio.tmp_save
+2022-03-31 10:09:33,337 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\gpio.tmp
+2022-03-31 10:09:33,389 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-03-31 10:09:33,390 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2022-03-31 10:09:33,391 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2022-03-31 10:09:33,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-03-31 10:09:33,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2022-03-31 10:09:33,393 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2022-03-31 10:09:33,394 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2022-03-31 10:09:33,395 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2022-03-31 10:09:33,401 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_it.c_save
+2022-03-31 10:09:33,528 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_it.c
+2022-03-31 10:09:33,531 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_it.h_save
+2022-03-31 10:09:33,574 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_it.h
+2022-03-31 10:09:33,579 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-31 10:09:33,641 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\stm32f1xx_hal_msp.c
+2022-03-31 10:09:33,644 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\system.tmp_save
+2022-03-31 10:09:33,683 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\MXTmpFiles\system.tmp
+2022-03-31 10:09:33,688 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-31 10:09:33,738 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-31 10:09:33,745 [WARN] IPConfigManager:2706 - IP not found : TIM
+2022-03-31 10:09:33,745 [WARN] IPConfigManager:2706 - IP not found : gpio
+2022-03-31 10:09:33,745 [WARN] CodeGenerator:2776 - IP not found : TIM
+2022-03-31 10:09:33,745 [WARN] CodeGenerator:2776 - IP not found : gpio
+2022-03-31 10:09:33,749 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\main.h_save
+2022-03-31 10:09:33,800 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Inc\main.h
+2022-03-31 10:09:33,805 [INFO] CodeEngine:193 - oldGeneratedFile, C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\main.c_save
+2022-03-31 10:09:33,874 [INFO] CodeEngine:211 - Generated code: C:\Users\user\Downloads\Visual-C\yuntteng\a14-05-uartTRXmode\Core\Src\main.c
+2022-03-31 10:09:34,235 [INFO] ProjectBuilder:1843 - Time for Copy HAL[1] : 59mS.
+2022-03-31 10:09:34,236 [INFO] ProjectBuilder:2428 - Project Generator version: 3.6.0
+2022-03-31 10:09:34,368 [INFO] ConfigFileManager:1043 - The Die is : DIE410
+2022-03-31 10:09:35,556 [INFO] ProjectBuilder:2595 - Time for Generating toolchain IDE Files: 1320mS.
+2022-03-31 10:09:35,557 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2022-03-31 10:09:35,558 [INFO] ProjectBuilder:1703 - Time for Copy CMSIS : 0mS.
+2022-03-31 11:43:09,001 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-31 11:43:37,075 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]

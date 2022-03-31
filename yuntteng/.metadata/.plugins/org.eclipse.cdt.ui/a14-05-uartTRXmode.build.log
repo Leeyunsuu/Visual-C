@@ -1,0 +1,10 @@
+11:41:20 **** Incremental Build of configuration Release for project a14-05-uartTRXmode ****
+make -j16 all 
+arm-none-eabi-size   a14-05-uartTRXmode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10628	    120	   2040	  12788	   31f4	a14-05-uartTRXmode.elf
+Finished building: default.size.stdout
+ 
+
+11:41:21 Build Finished. 0 errors, 0 warnings. (took 533ms)
+
