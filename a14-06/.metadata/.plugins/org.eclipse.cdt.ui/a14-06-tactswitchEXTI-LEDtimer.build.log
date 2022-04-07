@@ -1,0 +1,39 @@
+13:42:58 **** Incremental Build of configuration Debug for project a14-06-tactswitchEXTI-LEDtimer ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:167:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:167:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-06-tactswitchEXTI-LEDtimer.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\user\Downloads\Visual-C\a14-06\a14-06-tactswitchEXTI-LEDtimer\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-06-tactswitchEXTI-LEDtimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-06-tactswitchEXTI-LEDtimer.elf
+ 
+arm-none-eabi-objdump -h -S  a14-06-tactswitchEXTI-LEDtimer.elf  > "a14-06-tactswitchEXTI-LEDtimer.list"
+arm-none-eabi-objcopy  -O binary  a14-06-tactswitchEXTI-LEDtimer.elf  "a14-06-tactswitchEXTI-LEDtimer.bin"
+arm-none-eabi-size   a14-06-tactswitchEXTI-LEDtimer.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13156	    120	   1744	  15020	   3aac	a14-06-tactswitchEXTI-LEDtimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-06-tactswitchEXTI-LEDtimer.bin
+ 
+Finished building: a14-06-tactswitchEXTI-LEDtimer.list
+ 
+
+13:42:59 Build Finished. 0 errors, 5 warnings. (took 939ms)
+
