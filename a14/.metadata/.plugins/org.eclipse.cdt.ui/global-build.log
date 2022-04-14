@@ -1,7 +1,1365 @@
-11:53:43 **** Incremental Build of configuration Debug for project a14-05-uartTRXmode ****
+11:08:52 **** Build of configuration Debug for project a14-07-vs100-uart ****
 make -j16 all 
-arm-none-eabi-size   a14-05-uartTRXmode.elf 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103rbtx.o" "../Core/Startup/startup_stm32f103rbtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:167:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:167:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
    text	   data	    bss	    dec	    hex	filename
-  15616	    120	   2040	  17776	   4570	a14-05-uartTRXmode.elf
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
 Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:08:58 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+11:28:13 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:87:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:87:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:87:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:125:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %d-----\r\n",pa0pin);
+    ^~~~~~
+../Core/Src/main.c:125:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:165:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13064	    120	   1752	  14936	   3a58	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:30:42 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:87:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:87:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:87:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:120:5: error: too few arguments to function 'HAL_GPIO_WritePin'
+     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0);
+     ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:241:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:235:6: note: declared here
+ void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:125:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %d-----\r\n",pa0pin);
+    ^~~~~~
+../Core/Src/main.c:125:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:165:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Core/Src/subdir.mk:33: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+11:32:52 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:87:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:87:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:87:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:125:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %d-----\r\n",pa0pin);
+    ^~~~~~
+../Core/Src/main.c:125:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:165:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:165:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13064	    120	   1752	  14936	   3a58	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:33:01 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13064	    120	   1752	  14936	   3a58	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+11:37:18 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:87:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:87:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:87:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:96:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:96:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:123:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %d-----\r\n",pa0pin);
+    ^~~~~~
+../Core/Src/main.c:123:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:163:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13164	    120	   1752	  15036	   3abc	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:38:59 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:87:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:87:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:87:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:96:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:96:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:123:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %d-----\r\n",pa0pin);
+    ^~~~~~
+../Core/Src/main.c:123:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:163:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13176	    120	   1752	  15048	   3ac8	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:43:56 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:167:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:167:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:44:07 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+11:48:03 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:167:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:167:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:49:18 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:120:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("LED6");
+      ^~~~~~
+../Core/Src/main.c:120:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:125:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("LED7");
+     ^~~~~~
+../Core/Src/main.c:125:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:169:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:169:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13180	    120	   1744	  15044	   3ac4	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:50:32 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:120:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("LED6\r\n");
+      ^~~~~~
+../Core/Src/main.c:120:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:125:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("LED7\r\n");
+     ^~~~~~
+../Core/Src/main.c:125:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:169:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:169:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13180	    120	   1744	  15044	   3ac4	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:51:57 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:120:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("LED6\r\n");
+      ^~~~~~
+../Core/Src/main.c:120:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:125:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("LED7\r\n");
+     ^~~~~~
+../Core/Src/main.c:125:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:169:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:169:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13160	    120	   1744	  15024	   3ab0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+11:54:30 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:95:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:95:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:101:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:101:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:167:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:167:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1744	  15008	   3aa0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:00:36 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:109:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:128:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----LED6-----\r\n");
+      ^~~~~~
+../Core/Src/main.c:128:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:133:5: warning: incompatible implicit declaration of built-in function 'printf'
+     printf("-----LED7-----\r\n");
+     ^~~~~~
+../Core/Src/main.c:133:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:177:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13248	    120	   1744	  15112	   3b08	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:01:34 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:109:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:177:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	    120	   1744	  15060	   3ad4	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:02:17 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:103:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:103:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:109:4: warning: incompatible implicit declaration of built-in function 'printf'
+    printf("-----pc7flag(1) = %c-----\r\n",pc7flag);
+    ^~~~~~
+../Core/Src/main.c:109:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:177:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13232	    120	   1744	  15096	   3af8	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:03:27 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:109:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----LED6-----\r\n");
+      ^~~~~~
+../Core/Src/main.c:109:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:158:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13136	    120	   1744	  15000	   3a98	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:06:26 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:158:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13108	    120	   1744	  14972	   3a7c	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:07:13 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:85:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:85:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:85:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:158:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:158:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13108	    120	   1744	  14972	   3a7c	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:26:14 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:152:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:152:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13156	    120	   1752	  15028	   3ab4	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+12:28:21 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:86:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("-----pc13flag = %c-----\r\n",pc13flag);
+    ^~~~~~
+../Core/Src/main.c:86:4: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:86:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:92:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("-----pc13flag(1) = %c-----\r\n",pc13flag);
+      ^~~~~~
+../Core/Src/main.c:92:6: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:152:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("-a14- tact Switch(exti) & LED(timer)***\r\n");
+   ^~~~~~
+../Core/Src/main.c:152:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13160	    120	   1752	  15032	   3ab8	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+13:22:17 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:100:13: warning: 'MX_TIM3_Init' used but never defined
+ static void MX_TIM3_Init(void);
+             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Core/Src/main.o: In function `main':
+C:/a14/a14-07-vs100-uart/Debug/../Core/Src/main.c:387: undefined reference to `MX_TIM3_Init'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:44: a14-07-vs100-uart.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+13:22:38 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:100:13: warning: 'MX_TIM3_Init' declared 'static' but never defined [-Wunused-function]
+ static void MX_TIM3_Init(void);
+             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15136	    120	   2008	  17264	   4370	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+13:51:23 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:362:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:362:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:100:13: warning: 'MX_TIM3_Init' declared 'static' but never defined [-Wunused-function]
+ static void MX_TIM3_Init(void);
+             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15036	    120	   2008	  17164	   430c	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+13:51:32 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15036	    120	   2008	  17164	   430c	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+13:56:02 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:362:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:362:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:100:13: warning: 'MX_TIM3_Init' declared 'static' but never defined [-Wunused-function]
+ static void MX_TIM3_Init(void);
+             ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15064	    120	   2008	  17192	   4328	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:07:32 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:497:4: error: expected ';' before 'if'
+    if(('n' == Uart_Rx_active) && (1 <= rxByte_cnt)){
+    ^~
+../Core/Src/main.c:362:6: warning: unused variable 'm' [-Wunused-variable]
+  int m;
+      ^
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+make: *** [Core/Src/subdir.mk:33: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:07:35 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15216	    120	   2008	  17344	   43c0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:08:53 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15076	    120	   2008	  17204	   4334	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:18:23 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:355:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void)
+     ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:557:13: error: invalid storage class for function 'MX_TIM2_Init'
+ static void MX_TIM2_Init(void)
+             ^~~~~~~~~~~~
+../Core/Src/main.c:602:13: error: invalid storage class for function 'MX_USART2_UART_Init'
+ static void MX_USART2_UART_Init(void)
+             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:635:13: error: invalid storage class for function 'MX_GPIO_Init'
+ static void MX_GPIO_Init(void)
+             ^~~~~~~~~~~~
+../Core/Src/main.c:687:1: error: expected declaration or statement at end of input
+ }
+ ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:97:13: warning: 'MX_GPIO_Init' used but never defined
+ static void MX_GPIO_Init(void);
+             ^~~~~~~~~~~~
+../Core/Src/main.c:98:13: warning: 'MX_USART2_UART_Init' used but never defined
+ static void MX_USART2_UART_Init(void);
+             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:99:13: warning: 'MX_TIM2_Init' used but never defined
+ static void MX_TIM2_Init(void);
+             ^~~~~~~~~~~~
+../Core/Src/main.c:681:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+ void Error_Handler(void)
+      ^~~~~~~~~~~~~
+../Core/Src/main.c:635:13: warning: 'MX_GPIO_Init' defined but not used [-Wunused-function]
+ static void MX_GPIO_Init(void)
+             ^~~~~~~~~~~~
+../Core/Src/main.c:602:13: warning: 'MX_USART2_UART_Init' defined but not used [-Wunused-function]
+ static void MX_USART2_UART_Init(void)
+             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:557:13: warning: 'MX_TIM2_Init' defined but not used [-Wunused-function]
+ static void MX_TIM2_Init(void)
+             ^~~~~~~~~~~~
+../Core/Src/main.c:520:6: warning: 'SystemClock_Config' defined but not used [-Wunused-function]
+ void SystemClock_Config(void)
+      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:355:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void)
+     ^~~~
+../Core/Src/main.c:335:5: warning: 'Uart_Tx_multiByte' defined but not used [-Wunused-function]
+ int Uart_Tx_multiByte(int Tx_cnt, char* TxData, char Parity)
+     ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:33: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+14:19:02 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15076	    120	   2008	  17204	   4334	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:19:37 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14236	    120	   2008	  16364	   3fec	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:21:41 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:361:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:361:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14236	    120	   2008	  16364	   3fec	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:26:45 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:352:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:352:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15076	    120	   2008	  17204	   4334	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:26:57 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15076	    120	   2008	  17204	   4334	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+14:28:23 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:353:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:353:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15088	    120	   2008	  17216	   4340	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:29:31 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:353:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:353:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15088	    120	   2008	  17216	   4340	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:29:40 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15088	    120	   2008	  17216	   4340	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+14:31:33 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:355:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:355:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15112	    120	   2008	  17240	   4358	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:33:36 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:355:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:355:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15136	    120	   2008	  17264	   4370	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:34:45 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:355:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:355:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15136	    120	   2008	  17264	   4370	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:35:58 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:356:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:356:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15136	    120	   2008	  17264	   4370	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:40:05 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:357:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:357:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15156	    120	   2008	  17284	   4384	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:41:22 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:357:24: warning: unused variable 'pb8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                        ^~~~~~
+../Core/Src/main.c:357:16: warning: unused variable 'pa8pin' [-Wunused-variable]
+  GPIO_PinState pa8pin, pb8pin;
+                ^~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15156	    120	   2008	  17284	   4384	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+14:41:34 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15156	    120	   2008	  17284	   4384	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+15:05:05 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:309:20: warning: unused variable 'uart2status' [-Wunused-variable]
+  HAL_StatusTypeDef uart2status;
+                    ^~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14696	    120	   1984	  16800	   41a0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
+ 
+15:11:27 **** Incremental Build of configuration Debug for project a14-07-vs100-uart ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:310:20: warning: unused variable 'uart2status' [-Wunused-variable]
+  HAL_StatusTypeDef uart2status;
+                    ^~~~~~~~~~~
+arm-none-eabi-gcc -o "a14-07-vs100-uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\a14\a14-07-vs100-uart\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-07-vs100-uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-07-vs100-uart.elf
+ 
+arm-none-eabi-objdump -h -S  a14-07-vs100-uart.elf  > "a14-07-vs100-uart.list"
+arm-none-eabi-objcopy  -O binary  a14-07-vs100-uart.elf  "a14-07-vs100-uart.bin"
+arm-none-eabi-size   a14-07-vs100-uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14696	    120	   1984	  16800	   41a0	a14-07-vs100-uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-07-vs100-uart.bin
+ 
+Finished building: a14-07-vs100-uart.list
  

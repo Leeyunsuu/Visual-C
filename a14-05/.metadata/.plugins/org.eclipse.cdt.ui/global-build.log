@@ -1,0 +1,7 @@
+11:53:43 **** Incremental Build of configuration Debug for project a14-05-uartTRXmode ****
+make -j16 all 
+arm-none-eabi-size   a14-05-uartTRXmode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15616	    120	   2040	  17776	   4570	a14-05-uartTRXmode.elf
+Finished building: default.size.stdout
+ 
