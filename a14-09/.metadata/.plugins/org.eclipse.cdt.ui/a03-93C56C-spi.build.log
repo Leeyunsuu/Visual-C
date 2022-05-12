@@ -1,0 +1,20 @@
+14:27:38 **** Incremental Build of configuration Release for project a03-93C56C-spi ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "a03-93C56C-spi.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\user\Downloads\Visual-C\a14-09\a03-93C56C-spi\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a03-93C56C-spi.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a03-93C56C-spi.elf
+ 
+arm-none-eabi-objdump -h -S  a03-93C56C-spi.elf  > "a03-93C56C-spi.list"
+arm-none-eabi-objcopy  -O binary  a03-93C56C-spi.elf  "a03-93C56C-spi.bin"
+arm-none-eabi-size   a03-93C56C-spi.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11432	    132	   1772	  13336	   3418	a03-93C56C-spi.elf
+Finished building: default.size.stdout
+ 
+Finished building: a03-93C56C-spi.bin
+ 
+Finished building: a03-93C56C-spi.list
+ 
+
+14:27:39 Build Finished. 0 errors, 0 warnings. (took 890ms)
+
