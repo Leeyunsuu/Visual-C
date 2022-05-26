@@ -1,0 +1,21 @@
+!SESSION 2022-05-26 10:49:46.053 -----------------------------------------------
+eclipse.buildId=Version 1.2.0
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-26 11:29:31.068
+!MESSAGE Log4j initialized with config file C:\Users\user\Downloads\Visual-C\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-26 11:29:32.180
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2022-05-26 11:29:32.870
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-26 11:34:49.263
+!MESSAGE Indexed 'a14-15-i2c' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-26 11:34:51.205
+!MESSAGE Indexed 'a14-15-i2c' (19 sources, 19 headers) in 0.835 sec: 1,418 declarations; 6,852 references; 1 unresolved inclusions; 84 syntax errors; 2,887 unresolved names (26%)

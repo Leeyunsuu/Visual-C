@@ -1,0 +1,20 @@
+12:38:45 **** Incremental Build of configuration Debug for project a14-15-i2c ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "a14-15-i2c.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\user\Downloads\Visual-C\a14-15-i2c\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="a14-15-i2c.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: a14-15-i2c.elf
+ 
+arm-none-eabi-objdump -h -S  a14-15-i2c.elf  > "a14-15-i2c.list"
+arm-none-eabi-objcopy  -O binary  a14-15-i2c.elf  "a14-15-i2c.bin"
+arm-none-eabi-size   a14-15-i2c.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15788	    188	   1804	  17780	   4574	a14-15-i2c.elf
+Finished building: default.size.stdout
+ 
+Finished building: a14-15-i2c.bin
+ 
+Finished building: a14-15-i2c.list
+ 
+
+12:38:46 Build Finished. 0 errors, 0 warnings. (took 890ms)
+
