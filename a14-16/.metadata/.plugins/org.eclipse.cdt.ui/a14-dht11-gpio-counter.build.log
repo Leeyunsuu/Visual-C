@@ -1,0 +1,10 @@
+11:06:13 **** Incremental Build of configuration Debug for project a14-dht11-gpio-counter ****
+make -j16 all 
+arm-none-eabi-size   a14-dht11-gpio-counter.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13496	    120	   1840	  15456	   3c60	a14-dht11-gpio-counter.elf
+Finished building: default.size.stdout
+ 
+
+11:06:13 Build Finished. 0 errors, 0 warnings. (took 534ms)
+
